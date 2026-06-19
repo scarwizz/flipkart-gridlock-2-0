@@ -7,9 +7,8 @@ This repository contains the prototype pipeline for predictive traffic managemen
 2. **Emerging Hotspot Early Warning:** Uses a custom **Focal Loss** objective in LightGBM to handle extreme class imbalance (6.4% frequency) and provide pre-emptive alerts.
 
 ## Project Structure
-- `/notebooks`: Contains the `Sub_flipkart.ipynb` notebook (your core pipeline).
-- `/data`: Contains pre-processed modeling datasets.
-- `/results`: Contains SHAP importance plots and experimental metrics.
+-  `Sub_flipkart.ipynb` notebook (my core pipeline).
+
 ## Data
 The raw and processed datasets used in this project are hosted on Kaggle:
 [Access the Dataset on Kaggle](https://www.kaggle.com/datasets/arpitsingh5134/flipkart-gridlock2-2-o)
